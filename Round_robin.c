@@ -11,15 +11,10 @@ int main()
       for(i = 0; i < limit; i++)
       {
             printf("\nEnter Details of Process[%d]\n", i + 1);
-
             printf("Arrival Time:\t");
-
             scanf("%d", &arrival_time[i]);
-
             printf("Burst Time:\t");
-
             scanf("%d", &burst_time[i]);
-
             temp[i] = burst_time[i];
       }
 
