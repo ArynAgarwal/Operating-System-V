@@ -14,7 +14,6 @@ int main(){
     for(int i=0; i<n; i++){
         scanf("%d", &at[i]);
     }
-
     printf("Enter Burst Time\n");
     for(int i=0; i<n; i++){
         scanf("%d", &bt[i]);
