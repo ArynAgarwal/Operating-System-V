@@ -64,6 +64,7 @@ int main()
     }
     avgTat=(float)total/n;
     printf("\n");
+	
     printf("Avg wt time=%f",avgWt);
     printf("\n");
     printf("Avg tat time=%f",avgTat);
