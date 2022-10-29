@@ -5,7 +5,6 @@ int main(){
     scanf("%d",&n);
     int at[n],bt[n],pt[n],wt[n],tat[n],temp[n];
     int i,gin,gpt,count=0,time;
-
     printf("enter the arrival and burst times\n");
     for(i=0;i<n;i++){
         printf("entering details of %d process\n",i+1);
