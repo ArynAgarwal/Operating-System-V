@@ -5,7 +5,6 @@
     float avg_wt,avg_tat;
     printf("Enter number of process:");
     scanf("%d",&n);
-
     printf("nEnter Burst Time:n");
     for(i=0;i<n;i++)
     {
