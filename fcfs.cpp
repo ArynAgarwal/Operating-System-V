@@ -37,6 +37,7 @@ int main(){
             }
         }
     }
+    
     int temp = bt[0], i = 1;
     ct[0] = temp;
     while(i <= n-1){
