@@ -20,7 +20,6 @@ int main(){
     }
     gpt=-5;
     gin=0;
-
     for(time=0;count!=n;time++){
         for(i=0;i<n;i++){
             if(at[i]<=time && bt[i]>0&&pt[i]>=gpt){
