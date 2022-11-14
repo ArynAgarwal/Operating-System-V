@@ -56,6 +56,7 @@ int main()
     printf("\nProcess\t    Burst Time\t    completion time \tWaiting Time\tTurnaround Time");
 
     for(int i=0;i<n;++i)
+	    
     {
         tat[i]=bt[i]+wt[i];
         total+=tat[i];
@@ -69,3 +70,4 @@ int main()
     printf("\n");
     printf("Avg tat time=%f",avgTat);
 }
+
